@@ -1,18 +1,77 @@
-# Tharuxpert Ccstatus
+# ccstatus Homebrew Tap
 
-## How do I install these formulae?
+This is the official Homebrew tap for **ccstatus** — a CLI tool that shows Claude Code usage (session and weekly) in the statusline.
 
-`brew install tharuxpert/ccstatus/<formula>`
+This repository contains **only the Homebrew formula**.  
+Source code: <https://github.com/tharusha/ccstatus>
 
-Or `brew tap tharuxpert/ccstatus` and then `brew install <formula>`.
+---
 
-Or, in a `brew bundle` `Brewfile`:
+## Installation
 
-```ruby
-tap "tharuxpert/ccstatus"
-brew "<formula>"
+```bash
+brew tap tharusha/ccstatus
+brew install ccstatus
 ```
 
-## Documentation
+### Post-install
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+After installing, run:
+
+```bash
+ccstatus install
+```
+
+This configures ccstatus for your shell.
+
+---
+
+## Upgrading
+
+```bash
+brew update
+brew upgrade ccstatus
+```
+
+---
+
+## Reinstalling
+
+If the formula changes but the version number stays the same, Homebrew won't upgrade automatically. Force a reinstall:
+
+```bash
+brew reinstall ccstatus
+```
+
+---
+
+## Uninstalling
+
+```bash
+brew uninstall ccstatus
+brew untap tharusha/ccstatus
+```
+
+---
+
+## Quick Reference
+
+| Scenario | Command |
+|----------|---------|
+| First-time install | `brew tap tharusha/ccstatus && brew install ccstatus` |
+| New version released | `brew update && brew upgrade ccstatus` |
+| Formula changed, same version | `brew reinstall ccstatus` |
+| Remove completely | `brew uninstall ccstatus && brew untap tharusha/ccstatus` |
+
+---
+
+## Notes
+
+- Homebrew installs the binary to `$(brew --prefix)/bin/ccstatus`.
+- Homebrew does **not** auto-configure Claude Code; run `ccstatus install` after installation.
+
+---
+
+## License
+
+MIT
