@@ -22,7 +22,7 @@ class Ccstatus < Formula
     Run this command to finish setup and
     enable the Claude Code statusline.
   EOS
-end
+  end
 
 
   test do
