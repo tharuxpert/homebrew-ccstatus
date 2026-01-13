@@ -21,6 +21,17 @@ class Ccstatus < Formula
 
     Run this command to finish setup and
     enable the Claude Code statusline.
+
+    --------------------------------------
+              FEEDBACK WANTED
+    --------------------------------------
+
+    Using Claude Code? I’d love your input.
+
+    👉 Ideas, bugs, questions:
+       https://github.com/tharuxpert/ccstatus/discussions
+
+    Even short feedback helps shape the tool.
   EOS
   end
 
