@@ -24,7 +24,6 @@ class Ccstatus < Formula
   EOS
   end
 
-
   test do
     system "#{bin}/ccstatus"
   end
