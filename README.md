@@ -3,7 +3,8 @@
 This is the official Homebrew tap for **ccstatus** — a CLI tool that shows Claude Code usage (session and weekly) in the statusline.
 
 This repository contains **only the Homebrew formula**.  
-Source code: <https://github.com/tharuxpert/ccstatus>
+Source code: <https://github.com/tharuxpert/ccstatus>  
+💬 Feedback & ideas: <https://github.com/tharuxpert/ccstatus/discussions>
 
 ---
 
