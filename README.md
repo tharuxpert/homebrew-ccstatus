@@ -3,14 +3,14 @@
 This is the official Homebrew tap for **ccstatus** — a CLI tool that shows Claude Code usage (session and weekly) in the statusline.
 
 This repository contains **only the Homebrew formula**.  
-Source code: <https://github.com/tharusha/ccstatus>
+Source code: <https://github.com/tharuxpert/ccstatus>
 
 ---
 
 ## Installation
 
 ```bash
-brew tap tharusha/ccstatus
+brew tap tharuxpert/ccstatus
 brew install ccstatus
 ```
 
