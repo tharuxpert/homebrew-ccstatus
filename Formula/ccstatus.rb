@@ -11,6 +11,17 @@ class Ccstatus < Formula
     system "go", "build", "-o", bin/"ccstatus"
   end
 
+  def caveats
+  <<~EOS
+    🍺 ccstatus installed!
+
+    👉 Next step:
+       ccstatus install
+
+    This will safely configure Claude Code.
+  EOS
+  end
+
   test do
     system "#{bin}/ccstatus"
   end
