@@ -49,7 +49,7 @@ brew reinstall ccstatus
 
 ```bash
 brew uninstall ccstatus
-brew untap tharusha/ccstatus
+brew untap tharuxpert/ccstatus
 ```
 
 ---
@@ -58,10 +58,10 @@ brew untap tharusha/ccstatus
 
 | Scenario | Command |
 |----------|---------|
-| First-time install | `brew tap tharusha/ccstatus && brew install ccstatus` |
+| First-time install | `brew tap tharuxpert/ccstatus && brew install ccstatus` |
 | New version released | `brew update && brew upgrade ccstatus` |
 | Formula changed, same version | `brew reinstall ccstatus` |
-| Remove completely | `brew uninstall ccstatus && brew untap tharusha/ccstatus` |
+| Remove completely | `brew uninstall ccstatus && brew untap tharuxpert/ccstatus` |
 
 ---
 
