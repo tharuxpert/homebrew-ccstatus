@@ -13,14 +13,17 @@ class Ccstatus < Formula
 
   def caveats
   <<~EOS
-    🍺 ccstatus installed!
+    🍺 ccstatus has been installed.
 
-    👉 Next step:
-       ccstatus install
+    ======================================
+          ccstatus install
+    ======================================
 
-    This will safely configure Claude Code.
+    Run this command to finish setup and
+    enable the Claude Code statusline.
   EOS
-  end
+end
+
 
   test do
     system "#{bin}/ccstatus"
