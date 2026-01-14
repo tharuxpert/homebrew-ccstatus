@@ -1,8 +1,8 @@
 class Ccstatus < Formula
   desc "Claude Code statusline usage CLI"
   homepage "https://github.com/tharuxpert/ccstatus"
-  url "https://github.com/tharuxpert/ccstatus/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "ef6c9aaedb088ca3c2c5614e15466d1c484362846c11ac08946a3a41fad6be77"
+  url "https://github.com/tharuxpert/ccstatus/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "a93b04a25cac17b2b14ff77676e3a02fcb17fa54f43f18249ce8c5e3e4fd2abe"
   license "MIT"
 
   depends_on "go"
